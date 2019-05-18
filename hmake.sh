@@ -18,13 +18,13 @@ while getopts "h" o; do
 	esac
 done
 shift $((OPTIND -1))
-fname="${@:-1}"
+finame="${@:-1}"
 if [ -z "$@" ]; then
 echo "Filename missing"
 echo "The Program will now exit"
 exit 1
 fi
-
+fname="$finame.html"
 if [ -e $fname ]; then
 read -p "File of this name exists. Do you wish to delete it (y/n) " answer
 case ${answer:0:1} in
