@@ -39,7 +39,7 @@ echo "<!DOCTYPE HTML>" >> $fname
 echo "<html lang = ""'""en""'"">" >> $fname
 echo "<head>" >> $fname
 echo "<meta charset=\"UTF-8\">" >> $fname
-echo "<title> $fname </title>" >> $fname
+echo "<title> $finame </title>" >> $fname
 echo "<link rel=\"stylesheet\" type=\"txt/css\" href=\"style.css\">" >> $fname
 echo "</head>" >> $fname
 echo -e "<body>\n</body>\n</html>" >> $fname
